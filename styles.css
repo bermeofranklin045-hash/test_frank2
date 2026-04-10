@@ -1,43 +1,49 @@
+body {
+  background-color: #6d6b6bce;
+}
 
-*{
- 
+header {
+  background-color: rgb(159, 161, 161);
+}
 
 /* Títulos principales */
-h3:hover{
+h3:hover {
   border-width: 3px;
-  border-color:black;
+  border-color: black;
   border-style: solid;
   color: hsl(207, 74%, 45%);
 
-  
-} 
-h2:hover{
-  border-width: 3px;
-  border-color:black;
-  border-style: solid;
-  color: hsl(229, 75%, 68%);
 
-  
-} 
- }
-  *{
-
-        
-
-h1{
-  border-width: 3px;
-  border-color:rgb(0, 0, 0);
-  border-style: solid;
-  color: hsl(221, 100%, 28%);
 }
-img:hover{
-   border: width 3px;
-   border-color:rgb(136, 255, 196);
+
+h2:hover {
+  border-width: 3px;
+  border-color: black;
   border-style: solid;
+  color: hsl(46, 100%, 50%);
 }
+
+h1 {
+  
+  color: hsl(221, 100%, 21%);
+}
+
+img {
+
+  width: 700px;
+  height: 500px;
+
+  &:hover {
+    border: 2px solid aquamarine;
+
+  }
+}
+
+
+
 a {
   display: inline-block;
-  padding:9px 13PX;
+  padding: 10px 20px;
   background: rgb(74, 102, 194);
   color: white;
   text-decoration: none;
@@ -52,34 +58,18 @@ a:hover {
   color: rgb(70, 193, 202);
   border: 2px solid rgb(70, 193, 202);
 }
-}h
-body{
-     font-family: cursive;
-          color:hsl(0, 100%, 50%)
-          
-                }
-input:hover{
-border: width 3px;
-   border-color:rgb(136, 255, 196);
+
+h body {
+  font-family: 'Times New Roman', Times, serif;
+  color: hsl(0, 0%, 0%) !important;
+}
+
+input:hover {
+  border: width 3px;
+  border-color: rgb(136, 255, 196);
   border-style: solid;
-        }
-  P:hover{
-    color:rgb(19, 142, 179)
+}
 
-  }
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-  
+p:hover {
+  color: rgba(0, 18, 175, 0.685);
+}
