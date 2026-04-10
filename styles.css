@@ -87,5 +87,12 @@ article{
   padding: 1rem;
   margin-bottom:18px ;
   border-radius: 25px;
-  box-shadow: 20px 1px 3x 5px; rgba (255,255,255,1)
+  box-shadow: 20px 1px 3x 5px; rgba (255,255,255,1);
 }
+  path{
+  color:var(red);
+  background: rgba(0, 18, 175, 0.685);
+  width: 64px;
+  height: 64px;
+  border-radius: 99999px;
+   }  
