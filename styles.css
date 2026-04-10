@@ -4,14 +4,19 @@ body {
 
 header {
   background-color: rgb(159, 161, 161);
+  width: 100vw;
+  height: 18vh;
+  margin:0;
+
 }
 
-/* Títulos principales */
+
 h3:hover {
   border-width: 3px;
   border-color: black;
   border-style: solid;
   color: hsl(207, 74%, 45%);
+
 
 
 }
@@ -25,7 +30,7 @@ h2:hover {
 
 h1 {
   
-  color: hsl(221, 100%, 21%);
+  color: hsl(0, 0%, 7%);
 }
 
 img {
@@ -34,7 +39,7 @@ img {
   height: 500px;
 
   &:hover {
-    border: 2px solid aquamarine;
+    border: 2px solid rgb(75, 75, 75);
 
   }
 }
@@ -43,20 +48,22 @@ img {
 
 a {
   display: inline-block;
-  padding: 10px 20px;
-  background: rgb(74, 102, 194);
+  padding: 15px 23px;
+  background: rgb(54, 54, 54);
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: all 0.3s ease;
   font-weight: bold;
+  
+ 
 }
 
 a:hover {
   background: transparent;
-  color: rgb(70, 193, 202);
-  border: 2px solid rgb(70, 193, 202);
+  color: rgb(111, 122, 122);
+  border: 2px solid rgb(175, 185, 185);
 }
 
 h body {
@@ -68,8 +75,17 @@ input:hover {
   border: width 3px;
   border-color: rgb(136, 255, 196);
   border-style: solid;
+  color: aquamarine;
 }
 
 p:hover {
   color: rgba(0, 18, 175, 0.685);
+}
+article{
+
+  background-color: #6d6b6bce;
+  padding: 1rem;
+  margin-bottom:18px ;
+  border-radius: 25px;
+  box-shadow: 20px 1px 3x 5px; rgba (255,255,255,1)
 }
