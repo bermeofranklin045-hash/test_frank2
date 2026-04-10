@@ -1,0 +1,62 @@
+
+*{
+ 
+
+/* Títulos principales */
+h3:hover{
+  border-width: 3px;
+  border-color:black;
+  border-style: solid;
+  color: hsl(60,80%,30%);
+
+  
+} 
+h2:hover{
+  border-width: 3px;
+  border-color:black;
+  border-style: solid;
+  color: hsl(229, 100%, 50%);
+
+  
+} 
+ }
+  *{
+
+        /*body*/
+        body {
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color:hsl(0, 0%, 0%)
+        }
+
+h1{
+  border-width: 3px;
+  border-color:rgb(255, 0, 0);
+  border-style: solid;
+  color: hsl(7,67%,50%);
+}
+img:hover{
+   border: width 3px;
+   border-color:rgb(136, 255, 196);
+  border-style: solid;
+}
+a:hover{
+   border: width 3px;
+   border-color:rgb(70, 193, 202);
+  border-style: solid;
+}
+
+ } 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  
