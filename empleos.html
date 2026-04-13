@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Encunetra tu próximo trabajo - Inicio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="tu nuevo trabajo hoy.">
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>DevJobs</h1>
+
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./empleos.html">Empleos</a>
+            <a href="./index.html">Regresar</a>
+            <a href="./empresas.html">Empresas</a>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+            <h1>Encuentra tu próximo trabajo</h1>
+
+            <p>Explora miles de oportunidades laborales y encuentra el empleo que mejor se adapte a tus
+                habilidades y experiencia.</p>
+
+            <form role="search">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+
+                    <input required type="text" placeholder="Buscar empleos por título, habilidad o empresa">
+
+
+                    <button type="submit">Buscar</button>
+                </div>
+                <div>
+                    <select class="job-filter-select" name="categoria">
+                        <option value="">Todas las categorías</option>
+                        <option value="desarrollo">Desarrollo de Software</option>
+                        <option value="diseño">Diseño Gráfico</option>
+                        <option value="marketing">Marketing Digital</option>
+                        <option value="ventas">Ventas</option>
+
+                    </select>
+                    <select class="job-filter-select" name="ubicacion">
+                        <option value="">Todas las ubicaciones</option>
+                        <option value="remoto">Remoto</option>
+                        <option value="presencial">Presencial</option>
+                        <option value="hibrido">Híbrido</option>
+                    </select>
+                    <select class="job-filter-select" name="tipo">
+                        <option value="">Todos los tipos</option>
+                        <option value="tiempo_completo">Tiempo completo</option>
+                        <option value="medio_tiempo">Medio tiempo</option>
+                        <option value="contrato">Contrato</option>
+                        <option value="practicas">Prácticas</option>
+                    </select>
+                    <select class="job-filter-select" name="salario">
+                        <option value="">Todos los rangos salariales</option>
+                        <option value="0-50000">0 - 350 USD</option>
+                        <option value="50000-100000">350- 1000 USD</option>
+                        <option value="100000-150000">1000 - 5000 USD</option>
+                        <option value="150000+">5000+ USD</option>
+                    </select>
+                </div>
+
+            </form>
+        </section>
+
+        <div>
+            <h2>Resultados de búsqueda</h2>
+
+            <article class="job-card">
+                <h2>Desarrollador web</h2>
+                <span>Tech Solutions</span> | <span>Remoto</span>
+                <p>necesitamos un desarrollador web con experiencia en JavaScript y React.</p>
+                <button class="btn-aplicar">Aplicar</button>
+          
+            </article>
+
+
+            <article class="job-card" >
+
+                <h2>Mantenimiento de sistemas</h2>
+                <span>Global Tech</span> | <span>Presencial</span>
+                <p>matener los sitemas .</p>
+                <button class="btn-aplicar">Aplicar</button>
+
+
+            </article>
+
+            <article class="job-card"          >
+
+                <h2>actualizar los sitemas y pagina web</h2>
+                <span>techt fix</span> | <span>Presencial/Remoto</span>
+                <p>actualizar los sistemas.</p>
+                <button class="btn-aplicar">Aplicar</button>
+
+
+            </article>
+            <article class="job-card">
+
+                <h2>programador junior</h2>
+                <span>Dev Solutions</span> | <span>Presencial</span>
+                <p>dar mantenimineto de pagina web de un cliente.</p>
+                <button class="btn-aplicar">Aplicar</button>
+            </article>
+        </div>
+
+
+
+        <footer>
+            <form action="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M15 6l-6 6l6 6" />
+                </svg>
+                <button class="btn-pagination">1</button>
+                <button class="btn-pagination">2</button>
+                <button class="btn-pagination">3</button>
+                <button class="btn-pagination">4</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    class="icon icon-tabler icons-tabler-filled icon-tabler-chevron-right">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M9.707 5.293l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 1 1 -1.414 -1.414l5.293 -5.293l-5.293 -5.293a1 1 0 0 1 1.414 -1.414" />
+                </svg>
+            </form>
+
+        </footer>
+    </main>
+</body>
+
+</html>
