@@ -366,6 +366,9 @@ article {
 .job-card {
 position: relative;
 padding-bottom: 30px;
+border:1px solid rgb(255, 255, 255);
+
+
 }
 .btn-aplicar{
 
@@ -375,7 +378,7 @@ padding-bottom: 30px;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background-color:#0d5ba8;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   border: none;
   cursor: pointer;
@@ -383,3 +386,20 @@ padding-bottom: 30px;
   font-family: inherit;
   font-size: 1rem;
 }
+.Look-Job{
+  display: flex;
+  align-items: center;
+  background-color:rgb(27, 50, 66);
+  border-radius: 0.5rem;
+  box-shadow:#06182a;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  width: 800px;
+}
+.job-results{
+  margin: 60px auto; 
+  margin-bottom: 100px;
+ color: rgb(243, 243, 243);
+ border-color: blueviolet;
+
+} 
