@@ -17,12 +17,13 @@
   --background: #06182a;
   --text-primary: #ffffff;
   --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --text-muted: #5b6068;
   --border: rgba(255, 255, 255, 0.1);
   --card-bg: #1e293b;
   --shadow: rgba(0, 0, 0, 0.3);
   --input-bg: #1e293b;
   --hsla-example: hsla(210, 100%, 56%, 1);
+  --text-buton: black;
 }
 
 
@@ -124,6 +125,7 @@ header div a {
   text-decoration: none;
   /* TODO */
 }
+
 /* Hero */
 main>section:nth-child(1) {
   height: 500px;
@@ -367,7 +369,7 @@ article {
 
 .job-card {
   border: 1px solid rgb(255, 255, 255);
- }
+}
 
 .btn-aplicar {
 
@@ -404,22 +406,80 @@ article {
   border-color: blueviolet;
 
 }
-.info{
+
+.info {
   display: flex;
-  align-items:flex-start ;
- justify-content:space-between;
- }
-.pagination{
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.pagination {
   display: flex;
   justify-content: center;
-  gap: 1 rem;
+  gap: 1rem;
   margin-block: 2rem;
+
   a {
-   display: flex;
-   align-items: center;
-justify-content: center;
-width:2,5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    text-decoration: none;
+    color: var(--text-primary);
+    border-radius: 0.357rem;
+    transition: all.3s;
 
+    &:active {
+      transform: scale(0.50);
+    }
 
-        }
+    &:hover {
+      background-color: #4481ddce;
+    }
+
+    &.is-active {
+      background-color: var(--primary-light);
+      color: rgb(255, 255, 255);
+      pointer-events: none;
+    }
+  }
+}
+
+.button-apply-job {
+  &.is-applied {
+    background: rgb(44, 95, 20);
+    pointer-events: none;
+  }
+}
+
+.company-info {
+  align-items: center;
+  display: flex;
+  padding: 2rem 3rem;
+}
+
+.titulo {
+  padding: 0 3rem;
+}
+
+.buton-titulo {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+
+}
+
+.descripicion {
+  padding: 2rem 3rem;
+}
+
+.responsabilidades {
+  align-items: start;
+  display: flex;
+}
+
+.btn-right {
+  display: block;
+  margin-left: auto;
 }
