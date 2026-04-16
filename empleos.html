@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="tu nuevo trabajo hoy.">
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./script.js" defer></script>
+    <script type="module" src="./script.js" defer></script>
 </head>
 
 <body>
@@ -22,14 +22,26 @@
 
             DevJobs
         </h1>
+        <div>
+            <nav>
 
-        <nav>
-            <a href="./index.html">Inicio</a>
-            <a href="./empleos.html">Empleos</a>
-            <a href="./index.html">Regresar</a>
-            <a href="./infoempleo.html">Empresas</a>
+                <a herf="">Empleos</a>
+            </nav>
+        </div>
+        <div>
+            <devjobs-avatar
+                service="github"
+                username="bermeofranklin045-hash"
+                size="24">
+            </devjobs-avatar>
 
-        </nav>
+              <devjobs-avatar
+                service="github"
+                username="bermeofranklin045-hash"
+                size="24"></devjobs-avatar>
+
+
+        </div>
     </header>
 
     <main>
@@ -51,93 +63,42 @@
                         <path d="M21 21l-6 -6" />
                     </svg>
 
-                    <input required type="text" placeholder="Buscar empleos por título, habilidad o empresa">
+                    <input id="search-input" required type="text"
+                        placeholder="Buscar empleos por título, habilidad o empresa">
 
 
                     <button type="submit">Buscar</button>
                 </div>
                 <div>
-                    <select class="job-filter-select" name="categoria">
-                        <option value="">Todas las categorías</option>
+                    <select class="job-filter-select" name="categoria" id="filter-categoria">
+                        <option value="">Tecnología</option>
                         <option value="desarrollo">Desarrollo de Software</option>
                         <option value="diseño">Diseño Gráfico</option>
                         <option value="marketing">Marketing Digital</option>
                         <option value="ventas">Ventas</option>
 
                     </select>
-                    <select class="job-filter-select" name="ubicacion">
-                        <option value="">Todas las ubicaciones</option>
+                    <select class="job-filter-select" name="ubicacion" id="filter-location">
+                        <option value="">Ubicaciones</option>
                         <option value="remoto">Remoto</option>
                         <option value="presencial">Presencial</option>
                         <option value="hibrido">Híbrido</option>
                     </select>
                     <select class="job-filter-select" name="tipo">
-                        <option value="">Todos los tipos</option>
+                        <option value="">Nivel de experiencia</option>
                         <option value="tiempo_completo">Tiempo completo</option>
                         <option value="medio_tiempo">Medio tiempo</option>
                         <option value="contrato">Contrato</option>
                         <option value="practicas">Prácticas</option>
                     </select>
-                    <select class="job-filter-select" name="salario">
-                        <option value="">Todos los rangos salariales</option>
-                        <option value="0-50000">0 - 350 USD</option>
-                        <option value="50000-100000">350- 1000 USD</option>
-                        <option value="100000-150000">1000 - 5000 USD</option>
-                        <option value="150000+">5000+ USD</option>
-                    </select>
-                </div>
 
+                </div>
             </form>
         </section>
+        <span id="filter-selected-value"> </span>
 
         <h2>Resultados de búsqueda</h2>
-        <div class="jobs-listing-card">
-            <article class="job-card">
-
-                <div class="info">
-                    <div>
-                        <h2>Desarrollador web</h2>
-                        <span>Tech SolutionsRemoto</span>
-                    </div>
-                    <button id="boton-importante" class="btn-aplicar button-apply-job">Aplicar</button>
-                </div>
-
-                <p>necesitamos un desarrollador web con experiencia en JavaScript y React.</p>
-            </article>
-
-            <article class="job-card">
-                <div class="info">
-                    <div>
-                        <h2>Mantenimiento de sistemas</h2>
-                        <span>Global Tech/Presencial</span>
-                    </div>
-                    <button class="btn-aplicar button-apply-job">Aplicar</button>
-                </div>
-                <p>matener los sitemas .</p>
-            </article>
-
-            <article class="job-card">
-                <div class="info">
-                    <div>
-                        <h2>actualizar los sitemas y pagina web</h2>
-                        <span>techt fix/Presencial/Remoto</span>
-                    </div>
-                    <button class="btn-aplicar button-apply-job">Aplicar</button>
-                </div>
-                <p>actualizar los sistemas.</p>
-            </article>
-            <article class="job-card">
-                <div class="info">
-                    <div>
-                        <h2>programador junior</h2>
-                        <span>Dev Solutions/ Presencial</span>
-                    </div>
-                    <button class="btn-aplicar button-apply-job">Aplicar</button>
-                </div>
-                <p>dar mantenimineto de pagina web de un cliente.</p>
-
-            </article>
-        </div>
+        <div class="jobs-listing-card"></div>
 
         <nav class="pagination">
 
