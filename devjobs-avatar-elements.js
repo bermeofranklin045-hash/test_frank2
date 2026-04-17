@@ -1,23 +1,23 @@
 class DevJobsAvatar extends HTMLElement {
-    constructor() {
-        super()
+  constructor() {
+    super()
 
-        this.attachShadow({ mode: 'open' })
-    }
+    this.attachShadow({ mode: 'open' })
+  }
 
-    createUrl(service, username) {
-        return `https://unavatar.io/${service}/${username}`
-        // return `https://avatars.githubusercontent.com/${username}`
-    }
+  createUrl(service, username) {
+    return `https://unavatar.io/${service}/${username}`
+    // return `https://avatars.githubusercontent.com/${username}`
+  }
 
-    render() {
-        const service = this.getAttribute('service') ?? 'github'
-        const username = this.getAttribute('username') ?? 'bermeofranklin045-hash'
-        const size = this.getAttribute('size') ?? '40'
+  render() {
+    const service = this.getAttribute('service') ?? 'github'
+    const username = this.getAttribute('username') ?? 'bermeofranklin045-hash'
+    const size = this.getAttribute('size') ?? '40'
 
-        const url = this.createUrl(service, username)
+    const url = this.createUrl(service, username)
 
-        this.shadowRoot.innerHTML = `
+    this.shadowRoot.innerHTML = `
       <style>
         img {
           width: ${size}px;
@@ -32,11 +32,11 @@ class DevJobsAvatar extends HTMLElement {
         class="avatar"
       />
     `
-    }
+  }
 
-    connectedCallback() {
-        this.render()
-    }
+  connectedCallback() {
+    this.render()
+  }
 
 }
 

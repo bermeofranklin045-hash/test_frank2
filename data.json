@@ -6,21 +6,27 @@
     "ubicacion": "presencial",
     "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
     "data": {
-      "technology": ["react", "node", "javascript"],
+      "technology": [
+        "react",
+        "node",
+        "javascript"
+              ],
       "modalidad": "presencial",
-      "nivel": "senior"
+      "nivel": "senior",
+      "titulo": "Desarrollador de Software Senior"
     }
   },
   {
     "id": "d35b2c89-5d60-4f26-b19a-6cfb2f1a0f57",
     "titulo": "Analista de Datos",
     "empresa": "Data Driven Co.",
-    "ubicacion": "Remoto",
+    "ubicacion": "presencial",
     "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
     "data": {
       "technology": "python",
-      "modalidad": "remoto",
-      "nivel": "junior"
+      "modalidad": "presencial",
+      "nivel": "junior",
+      "titulo": "Analista de Datos"
     }
   },
   {
@@ -32,7 +38,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "hibrido",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Desarrollador de Aplicaciones Móviles"
     }
   },
   {
@@ -44,7 +51,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Ingeniero de DevOps"
     }
   },
   {
@@ -56,7 +64,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Diseñador UX/UI"
     }
   },
   {
@@ -68,7 +77,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Administrador de Bases de Datos"
     }
   },
   {
@@ -80,7 +90,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Especialista en Ciberseguridad"
     }
   },
   {
@@ -92,19 +103,21 @@
     "data": {
       "technology": "mobile",
       "modalidad": "presencial",
-      "nivel": "senior"
+      "nivel": "senior",
+      "titulo": "NextGen Technologies"
     }
   },
   {
     "id": "a71f7a92-56d9-4b42-9f16-cb29b40e5f2c",
-    "titulo": "Frontend Developer",
+    "titulo": " Developer Frontend",
     "empresa": "Bright Web Studio",
     "ubicacion": "hibrido",
     "descripcion": "Buscamos un desarrollador frontend con experiencia en React, TypeScript y Tailwind CSS. Se valorará conocimiento en optimización de rendimiento y accesibilidad web.",
     "data": {
       "technology": "react",
       "modalidad": "hibrido",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Developer frontend"
     }
   },
   {
@@ -116,7 +129,8 @@
     "data": {
       "technology": "node",
       "modalidad": "presencial",
-      "nivel": "mid"
+      "nivel": "mid-level",
+      "titulo": "Backend Developer"
     }
   },
   {
@@ -128,7 +142,8 @@
     "data": {
       "technology": "python",
       "modalidad": "remoto",
-      "nivel": "senior"
+      "nivel": "senior",
+      "titulo": "Ingeniero de Machine Learning"
     }
   },
   {
@@ -138,9 +153,10 @@
     "ubicacion": "hibrido",
     "descripcion": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
     "data": {
-      "technology": "mobile",
+      "technology": "javascript",
       "modalidad": "hibrido",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "QA Automation Engineer"
     }
   },
   {
@@ -152,7 +168,8 @@
     "data": {
       "technology": "mobile",
       "modalidad": "hibrido",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Administrador de Sistemas"
     }
   },
   {
@@ -162,9 +179,10 @@
     "ubicacion": "presencial",
     "descripcion": "Estamos buscando un Scrum Master con experiencia en metodologías ágiles y gestión de equipos multidisciplinarios. Certificación Scrum Master deseable.",
     "data": {
-      "technology": "mobile",
+      "technology": "javascript",
       "modalidad": "presencial",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "titulo": "Scrum Master"
     }
   },
   {
@@ -174,10 +192,10 @@
     "ubicacion": "hibrido",
     "descripcion": "Buscamos un técnico de soporte con habilidades en resolución de incidencias, redes y sistemas operativos. Se requiere atención al detalle y excelente trato con el usuario.",
     "data": {
-      "technology": "mobile",
+      "technology": "javascript",
       "modalidad": "hibrido",
-      "nivel": "junior"
+      "nivel": "junior",
+      "titulo": "Soporte TécnicoNivel 2 "
     }
-  }
-  
-]
+    }
+  ]

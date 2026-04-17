@@ -497,3 +497,14 @@ footer {
   display: block;
   margin-left: auto;
 }
+.filtrado-nombre{
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--card-bg);
+  padding: 2rem;
+  margin-bottom: 16px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+  color:#6793f3;
+}
